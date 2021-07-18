@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccSetingsFragment"
+    android:background="@color/black">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSignOut"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="SignOut"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button_login"
+        android:textColor="@color/primaryDark"
+
+        />
+
+</FrameLayout>
